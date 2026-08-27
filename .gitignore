@@ -11,6 +11,7 @@ data/*.parquet
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb_checkopt
+*.ipynb
 
 # IDE
 .vscode/
