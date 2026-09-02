@@ -1,0 +1,14 @@
+{
+  "auc_score": 0.8204671133385892,
+  "accuracy": 0.80979,
+  "train_size": 400000,
+  "test_size": 100000,
+  "features": [
+    "TIER_LEVEL_VALUE",
+    "STEP_THERAPY_YN",
+    "QUANTITY_LIMIT_YN",
+    "HAS_QTY_LIMIT_AMOUNT",
+    "SELECTED_DRUG_YN",
+    "CONTRACT_YEAR"
+  ]
+}
