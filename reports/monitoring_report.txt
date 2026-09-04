@@ -1,0 +1,131 @@
+================================================================================
+MODEL MONITORING REPORT - 13 MONTHS
+================================================================================
+
+OVERALL METRICS:
+  Average Accuracy: 0.8156
+  Accuracy Std Dev: 0.0291
+  Accuracy Range: 0.7493 - 0.8292
+
+  Average ROC-AUC: 0.8077
+  ROC-AUC Std Dev: 0.0517
+  ROC-AUC Range: 0.6908 - 0.8299
+
+DRIFT DETECTION:
+  Accuracy Drift: 0.0799 (LOW is good)
+  ROC-AUC Drift: 0.1391 (LOW is good)
+  Status: WARNING - Significant drift detected!
+
+MONTHLY BREAKDOWN:
+
+2025-08:
+  Accuracy: 0.7509
+  ROC-AUC: 0.6915
+  Prior Auth Rate (Actual): 27.52%
+  Prior Auth Rate (Predicted): 28.53%
+  Samples: 1,311,783
+  Avg Confidence: 44.81%
+
+2025-09:
+  Accuracy: 0.7493
+  ROC-AUC: 0.6908
+  Prior Auth Rate (Actual): 27.69%
+  Prior Auth Rate (Predicted): 28.72%
+  Samples: 1,298,449
+  Avg Confidence: 45.77%
+
+2025-10:
+  Accuracy: 0.8292
+  ROC-AUC: 0.8296
+  Prior Auth Rate (Actual): 28.02%
+  Prior Auth Rate (Predicted): 17.59%
+  Samples: 1,115,299
+  Avg Confidence: 28.02%
+
+2025-11:
+  Accuracy: 0.8284
+  ROC-AUC: 0.8291
+  Prior Auth Rate (Actual): 28.06%
+  Prior Auth Rate (Predicted): 17.66%
+  Samples: 1,121,336
+  Avg Confidence: 28.06%
+
+2025-12:
+  Accuracy: 0.8283
+  ROC-AUC: 0.8292
+  Prior Auth Rate (Actual): 28.07%
+  Prior Auth Rate (Predicted): 17.66%
+  Samples: 1,121,429
+  Avg Confidence: 28.06%
+
+2026-01:
+  Accuracy: 0.8286
+  ROC-AUC: 0.8292
+  Prior Auth Rate (Actual): 28.07%
+  Prior Auth Rate (Predicted): 17.71%
+  Samples: 1,118,219
+  Avg Confidence: 28.08%
+
+2026-02:
+  Accuracy: 0.8282
+  ROC-AUC: 0.8299
+  Prior Auth Rate (Actual): 28.14%
+  Prior Auth Rate (Predicted): 17.76%
+  Samples: 1,122,733
+  Avg Confidence: 28.13%
+
+2026-03:
+  Accuracy: 0.8276
+  ROC-AUC: 0.8296
+  Prior Auth Rate (Actual): 28.21%
+  Prior Auth Rate (Predicted): 17.82%
+  Samples: 1,122,175
+  Avg Confidence: 28.20%
+
+2026-04:
+  Accuracy: 0.8276
+  ROC-AUC: 0.8296
+  Prior Auth Rate (Actual): 28.21%
+  Prior Auth Rate (Predicted): 17.82%
+  Samples: 1,122,175
+  Avg Confidence: 28.21%
+
+2026-05:
+  Accuracy: 0.8271
+  ROC-AUC: 0.8292
+  Prior Auth Rate (Actual): 28.27%
+  Prior Auth Rate (Predicted): 17.88%
+  Samples: 1,123,842
+  Avg Confidence: 28.26%
+
+2026-06:
+  Accuracy: 0.8266
+  ROC-AUC: 0.8295
+  Prior Auth Rate (Actual): 28.37%
+  Prior Auth Rate (Predicted): 17.99%
+  Samples: 1,124,586
+  Avg Confidence: 28.37%
+
+2026-07:
+  Accuracy: 0.8250
+  ROC-AUC: 0.8286
+  Prior Auth Rate (Actual): 28.50%
+  Prior Auth Rate (Predicted): 17.97%
+  Samples: 1,123,948
+  Avg Confidence: 28.29%
+
+2026-08:
+  Accuracy: 0.8256
+  ROC-AUC: 0.8247
+  Prior Auth Rate (Actual): 28.39%
+  Prior Auth Rate (Predicted): 18.01%
+  Samples: 1,125,804
+  Avg Confidence: 29.06%
+
+================================================================================
+RECOMMENDATIONS:
+================================================================================
+1. Monitor accuracy and AUC weekly
+2. Retrain model if drift exceeds 5%
+3. Investigate if prior auth rates change >2%
+4. Set up automated alerts for performance drops
